@@ -712,8 +712,4 @@ case ${GUEST_PKG_TYPE} in
     pkg) install_freebsd ;;
 esac
 
-if [ -n "${KERNEL}" -o -n "${XGU}" ] ; then
-    echo "You should now reboot this Virtual Machine."
-fi
-
 exit 0
